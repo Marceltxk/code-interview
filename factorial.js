@@ -8,3 +8,9 @@ const factorial = number => {
     }
     return product;
 }
+
+// Recursive factorial function example
+
+const factorial2 = number => {
+    return number < 2 ? 1 : number * factorial(number - 1);
+}
