@@ -8,4 +8,4 @@ function invertString(word) {
     return (invertedString.join('')).toLowerCase();
 }
 
-console.log(invertString("Breno Felipe Dias de Oliveira"));
+console.log(invertString("Marcel"));
